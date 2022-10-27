@@ -27,5 +27,13 @@ namespace basics
             var input = 7;
             Assert.AreEqual(input + 2, sut.AddTwo(input));
         }
+
+        [TestMethod]
+        public void TestMethod4()
+        {
+            var sut = new Worker();
+            var input = "thisismystring";
+            Assert.AreEqual("thi", sut.Cut(input));
+        }
     }
 }
