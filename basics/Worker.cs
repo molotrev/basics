@@ -6,5 +6,10 @@
         {
             return true;
         }
+
+        public int AddOne(int input)
+        {
+            return input++;
+        }
     }
 }
