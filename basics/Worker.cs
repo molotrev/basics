@@ -21,5 +21,10 @@
         {
             return;
         }
+
+        public string Cut(string s)
+        {
+            return s.Remove(3);
+        }
     }
 }
