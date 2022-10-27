@@ -24,7 +24,7 @@
 
         public string Cut(string s)
         {
-            return s.Remove(3);
+            return s.Remove(5);
         }
     }
 }
