@@ -16,5 +16,10 @@
         {
             return input + 2;
         }
+
+        public void DoNothing(int input)
+        {
+            return;
+        }
     }
 }
