@@ -11,5 +11,10 @@
         {
             return input++;
         }
+
+        public int AddTwo(int input)
+        {
+            return input + 2;
+        }
     }
 }

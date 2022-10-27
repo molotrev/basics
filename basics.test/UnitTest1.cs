@@ -19,5 +19,13 @@ namespace basics
             var input = 4;
             Assert.AreEqual(input + 1, sut.AddOne(input));
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            var sut = new Worker();
+            var input = 7;
+            Assert.AreEqual(input + 2, sut.AddTwo(input));
+        }
     }
 }
