@@ -9,7 +9,7 @@
 
         public int AddOne(int input)
         {
-            return input++;
+            return ++input;
         }
 
         public int AddTwo(int input)
